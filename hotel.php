@@ -146,7 +146,6 @@
               </p>
               <a href="#"><img src="ressources/chambre3.jfif" class="hotel-img-carousel col-xs-2 col-lg-4 p-2"></a>
               <p class="hotel-text-hover-1">
-              <span class="hotel-text-hover-titre">CHAMBRE FAMILIALE</span>
               <span class="hotel-text-hover-corps">Parfait pour les familles, pouvant vous accueillir jusqu’à 5 personnes.
               Côté parc ou route ou cascade,
                lit double ou twin et canapé lit .
