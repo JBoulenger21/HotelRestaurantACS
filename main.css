@@ -1,45 +1,64 @@
-body {}
-h3 {font-family: 'Montserrat'; text-transform: uppercase; color: #14c0cf; font-size: 24px; margin-bottom: 18px; text-align: center; font-weight: 300;}
+body {font-family: 'Montserrat';}
+h3 {text-transform: uppercase; color: #14c0cf; font-size: 22px; margin-bottom: 12px; text-align: center; font-weight: 300;}
 
-.underline {border-top: 1px solid #b1b5b7; width: 105px;}
+.underline {border-top: 1px solid #b1b5b7; width: 105px; margin: auto;}
 
-#container-bienvenue {display: flex; width: 1140px; justify-content: center; margin-top: 99px; margin-left: 15%; margin-bottom: 195px;}
-#propos {flex-direction: column; justify-content: center;}
+#container-bienvenue {max-width: 1140px; margin: auto; margin-top: 99px; margin-bottom: 195px;}
+#bienvenue img {width: 50%; margin-top: 99px;}
+#tx-propos {width: 50%; float: right; margin-top: 99px; text-align: center;}
+#bienvenue h2 {color: #24c2cd; text-transform: uppercase; font-weight: 300; text-align: center; margin-bottom: 70px; font-size: 44px;}
+#bienvenue p {font-family: 'Open Sans'; color: #6d6b70; font-size: 16px; text-align: center; margin-bottom: 77px!important; line-height: 2.2rem;  margin: auto;}
+#bienvenue h2 span {font-weight: bold;}
+#bienvenue button {color: #24c2cd; border: 2px solid #24c2cd; border-radius: 8px; padding: 12px; text-transform: uppercase; font-size: 18px; background-color: #fff;  margin: auto;}
 
-p {font-family: 'Open Sans', sans-serif;
-color: #6d6b70;}
+#hotel {width: 100%; margin-top: 195px;  margin-bottom: -6px;}
+#hotel img {width: 50%; height: 787px;}
+#tx-hotel {width: 50%; text-align: center; float: right; margin-top: 90px;}
+#tx-hotel button {font-size: 20px; color: white; background-color: #24c2cd; border-radius: 8px; text-transform: uppercase; width: 212px; padding: 12px; border: none;}
+#tx-hotel p {margin-top: 89px; font-family: 'Open Sans'; color: #6d6b70; font-size: 18px; text-align: center; margin-bottom: 77px; line-height: 2.5rem;}
+#tx-hotel h3 {margin-top: -30px;}
 
-#bienvenue h2 {color: #24c2cd; font-family: 'Montserrat'; text-transform: uppercase; font-weight: 300; text-align: center; margin-bottom: 85px;}
-#bienvenue p {font-family: 'Open Sans'; color: #6d6b70; font-size: 18px; text-align: center; margin-bottom: 77px;}
-#bienvenue h2 span {font-family: 'Montserrat'; font-weight: bold;}
-#bienvenue button {color: #24c2cd; font-family: 'Montserrat'; border: 2px solid #24c2cd; border-radius: 8px; padding: 14px 16px; text-transform: uppercase; font-size: 20px; background-color: #fff; margin-left: 27%;}
-#block2 {margin-left: 26px; margin-right: 60px;}
-#propos3 {margin-top: 40px;}
+#resto {width: 100%;  margin-bottom: -6px; background-color: #f8f8f8;}
+#tx-resto {width: 50%; text-align: center; float: left; margin-top: 125px;}
+#tx-resto button {font-size: 20px; color: white; background-color: #24c2cd; border-radius: 8px; text-transform: uppercase; width: 212px; padding: 12px; border: none;}
+#tx-resto p {margin-top: 80px; font-family: 'Open Sans'; color: #6d6b70; font-size: 18px; text-align: center; margin-bottom: 77px; line-height: 2.5rem;}
+#resto img {width: 50%; height: 787px;}
 
-#hotel {width: 100%; margin-top: 195px;}
-#hotel img {width: 50%;}
-#tx-hotel {width: 50%; text-align: center; float: right;}
-#tx-hotel button {font-size: 20px; color: white; background-color: #24c2cd; border-radius: 8px; text-transform: uppercase; padding: 14px; border: none;}
-#tx-hotel p {font-family: 'Open Sans'; color: #6d6b70; font-size: 18px; text-align: center; margin-bottom: 77px; line-height: 2.5rem;}
-
-#resto {width: 100%;}
-#tx-resto {width: 50%; text-align: center; float: left;}
-#tx-resto button {font-size: 20px; color: white; background-color: #24c2cd; border-radius: 8px; text-transform: uppercase; width: 212px; padding: 14px; border: none;}
-#tx-resto p {font-family: 'Open Sans'; color: #6d6b70; font-size: 18px; text-align: center; margin-bottom: 77px; line-height: 2.5rem;}
-#tx-resto img {width: 50%;}
-
-#services {width: 100%;}
-#tx-services {width: 50%; text-align: center; float: right;}
+#services {width: 100%; margin-bottom: -6px;}
+#tx-services {width: 50%; text-align: center; float: right; margin-top: 100px;}
 #tx-services button {font-size: 20px; color: white; background-color: #24c2cd; border-radius: 8px; text-transform: uppercase; width: 212px; padding: 14px; border: none;}
-#tx-services p {font-family: 'Open Sans'; color: #6d6b70; font-size: 18px; text-align: center; margin-bottom: 77px; line-height: 2.5rem;}
-#services img {width: 50%;}
+#tx-services p {margin-top: 74px; font-family: 'Open Sans'; color: #6d6b70; font-size: 18px; text-align: center; margin-bottom: 77px; line-height: 2.5rem;}
+#services img {width: 50%; height: 787px;}
 
-#sejours {width: 100%; margin-bottom: 89px;}
-#tx-sejours {width: 50%; text-align: center; float: left;}
-#tx-sejours button {font-size: 20px; color: white; background-color: #24c2cd; border-radius: 8px; text-transform: uppercase; width: 212px; padding: 14px; border: none;}
-#tx-sejours p {font-family: 'Open Sans'; color: #6d6b70; font-size: 18px; text-align: center; margin-bottom: 77px; line-height: 2.5rem;}
-#sejours img {width: 50%;}
+#sejours {width: 100%; margin-bottom: 89px; background-color: #f8f8f8;}
+#tx-sejours {width: 50%; text-align: center; float: left; margin-top: 100px;}
+#tx-sejours button {font-size: 20px; color: white; background-color: #24c2cd; border-radius: 8px; text-transform: uppercase; width: 212px; padding: 12px; border: none;}
+#tx-sejours p {padding-top: 100px; max-width: 545px; margin: auto; font-family: 'Open Sans'; color: #6d6b70; font-size: 18px; text-align: center; margin-bottom: 77px; line-height: 2.5rem;}
+#sejours img {width: 50%; height: 787px;}
 
-#row-actu {margin-top: 108px;}
-#actu h2 {font-family: 'Montserrat'; font-size: 48px; color: #14c0cf; text-align: center; font-weight: 300; text-transform: uppercase; margin-bottom: 22px;}
-#actu h2 span {font-family: 'Montserrat'; font-weight: bold;}
+.actu-head {width: 100%; display: flex;}
+.date {flex-direction: column;}
+#actu {padding-bottom: 170px; padding-top: 79px; background-color: #f8f8f8; margin-top: -90px;}
+.para-actu {font-size: 8px; color: #6d6b70; line-height: 1.5rem; padding-left: 11px;}
+#row-actu {margin-top: 108px!important; max-width: 1070px; display: flex; margin: auto;}
+#actu h2 {font-size: 48px; color: #14c0cf; text-align: center; font-weight: 300; text-transform: uppercase; margin-bottom: 22px;}
+#actu h2 span {font-weight: bold;}
+#actu1 {flex-direction: column; background-color: white; margin-right: 57px; padding-bottom: -100px;}
+h4 {text-align: center; width: 70%; line-height: 1.5rem; color: #14c0cf; text-transform: uppercase; font-size: 10px; font-weight: bold;}
+#actu2 {flex-direction: column; background-color: white; margin-right: 57px;}
+#actu3 {flex-direction: column; background-color: white;}
+.day {width: 30%; margin-top: inherit; padding-left: 22px; font-size: 38px; color: #14c0cf; font-weight: bold; margin-bottom: 0px;}
+.com {font-size: 7px; color: #6d6b70; text-align: right; padding-right: 80px; margin-top: -12px; margin-bottom: 40px;}
+.month {margin-top: -3px; padding-left: 16px; font-size: 10px; text-transform: uppercase; color: #6d6b70;}
+#actu a {color: #14c0cf; font-size: 9px; text-decoration: none; padding-left: 17px;}
+
+
+#avis {display: flex; width: 100%; background-image: url("bg_avis.jpg"); height: 674px; background-position: center; background-size: cover;}
+#avis h3 {text-align: left; margin-bottom: 60px; padding-top: 134px; color: white; font-size: 24px; font-weight: 300;}
+#avis h3 span {font-weight: bold;}
+#avis p {color: white; font-weight: 300; font-size: 14px; line-height: 1.8rem;}
+#tx-avis {width: 50%; max-width: 415px; margin-left: 415px;}
+#tx-avis p span {color: #b1b5b7;}
+#pourcentage {margin-top: 178px; margin-left: 400px; width: 50%; text-align: center; border: 3px solid #14c0cf; border-radius: 85px; width: 170px; height: 170px;}
+#pourcentage p {color: white; font-size: 46px; font-weight: 300;}
+#nav-avis {color: white; }
