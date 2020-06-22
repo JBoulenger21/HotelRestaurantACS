@@ -14,7 +14,7 @@
         <h1 class="hotel-titre hotel-titre-1 text-center">HÔTEL</h1>
           <div class="container">
             <form>
-                <div class="form-row">
+                <div class="form-row hotel-formulaire">
                     <div class="col-lg-3">
                       <label for="start">DATE D'ARRIVEE</label>
 
@@ -49,19 +49,22 @@
                     </div>
                 </div>
             </form>
+            <div class="hotel-button-reserver">
+                <button type="button hotel-button-reserver" class="btn"><span class="hotel-text-button-detail">RESERVER</span></button>
+            </div>
           </div>
       </div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-12">
+        <div class="col-lg-12 col-sm-12">
           <h2 class="hotel-titre">NOTRE HÔTEL</h2>
           <p class="hotel-text text-center">Séjour vacances en famille ou week-end à deux, profitez du cadre exceptionnel de  l’Hôtel restaurant des Truites Bleues dans le Jura. Proche de Champagnole et de Saint Claude, notre hôtel se situe au coeur de la région des lacs du Jura. Placé aux portes du Parc Naturel du Haut Jura, il saura vous offrir tous les ingrédients d’un séjour nature réussi !</p>
         </div>
       </div>
     <h2 class="hotel-titre">NOS <span class="titre-bold">CHAMBRES</span></h2>
     <div class="row mt-5 mb-5">
-      <div class="col-lg-6 col-sm-12 p-1">
-          <img src="ressources/hotel-chambre.jpg" alt="Chambre 1"/>
+      <div class="hotel-img-chambre col-lg-6 col-sm-12 p-1">
+          <img class="hotel-img-chambre1" src="ressources/hotel-chambre.jpg" alt="Chambre 1"/>
       </div>
       <div class="col-lg-6 col-sm-12 p-5">
           <p class="hotel-text">Nos 17 chambres tout confort aux accents boisées et à la décoration raffinée sont pensées, décorées et équipées de façon chaleureuse et fonctionnelle. Toutes nos chambres sont composées d’une salle de bain privative (bain ou/et douche) et d’une télévision à écran plat . Elles sont spacieuses et offrent une superbe vue, notamment côté Rivière.</p>
@@ -82,7 +85,8 @@
     </div>
     </div>
     <h2 class="hotel-titre">NOS <span class="titre-bold">TARIFS</span></h2>
-    <!--Caroussel-->
+    <!--Caroussel desktop-->
+    <div class="hotel-carousel-desktop">
     <section id="carousel" class="carousel slide thumbnail col-xs-12 col-sm-12 col-md-12 col-lg-12" data-ride="carousel">
 
           <div class="carousel-inner">
@@ -163,7 +167,37 @@
             </a>
           </div>
         </section>
-    <p class="hotel-text">Découvez notre offre de séjours Tout Compris !</p>
+      </div>
+      <div class="hotel-carousel-mobile">
+        <section id="carousel" class="carousel slide thumbnail col-xs-12 col-sm-12 col-md-12 col-lg-12" data-ride="carousel">
+          <ul class="carousel-indicators hotel-carousel-ind">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="#"><img src="ressources/chambre1.jpg" class="hotel-img-carousel col-xs-offset-1 col-xs-2 col-lg-4 p-2"></a>
+                <span class="hotel-text-hover-apartir">à partir de</span>
+                <span class="hotel-text-hover-prix">104.00</span>
+                <span class="hotel-text-hover-unite">€</span>
+            </div>
+            <div class="carousel-item">
+              <a href="#"><img src="ressources/chambre2.jfif" class="hotel-img-carousel col-xs-2 col-lg-4 p-2"></a>
+              <span class="hotel-text-hover-apartir">à partir de</span>
+              <span class="hotel-text-hover-prix">104.00</span>
+              <span class="hotel-text-hover-unite">€</span>
+            </div>
+            <div class="carousel-item">
+              <a href="#"><img src="ressources/chambre3.jfif" class="hotel-img-carousel col-xs-2 col-lg-4 p-2"></a>
+              <span class="hotel-text-hover-apartir">à partir de</span>
+              <span class="hotel-text-hover-prix">104.00</span>
+              <span class="hotel-text-hover-unite">€</span>
+            </div>
+          </div>
+        </section>
+      </div>
+    <p class="hotel-text hotel-text-offre">Découvez notre offre de séjours Tout Compris !</p>
     <div class="hotel-button-details">
     <button type="button" class="btn"><span class="hotel-text-button-detail">TARIFS</span></button>
   </div>
