@@ -1,0 +1,71 @@
+.hotel-text{
+  font-family: 'Open Sans', sans-serif;
+  color: #b6b5b7;
+  line-height: 60px;
+  font-size: 18px;
+}
+.hotel-text-presta{
+  line-height: 40px;
+}
+.hotel-titre{
+  font-family: 'Montserrat', sans-serif;
+  color: #14c0cf;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.hotel-titre-1{
+  color: white;
+  font-size: 72px;
+}
+.hotel-accueil{
+  background-image: url("ressources/hotel-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1200px;
+}
+.titre-bold{
+  font-weight: bold;
+}
+.hotel-button-details{
+  width: 120px;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  margin: auto;
+  background-color: #14c0cf;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.hotel-text-button-detail{
+    color: white;
+    text-align: center;
+}
+.hotel-img-carousel{
+  width: 350px;
+  height: 650px;
+}
+.hotel-img-carousel:hover{
+  background-color: #008ede;
+  opacity: 80%;
+  padding: 0;
+  margin: 0;
+}
+.hotel-text-hover-1{
+  display: none;
+}
+.hotel-text-hover-1:hover{
+  display: block;
+  position: absolute;
+  transform: translate(50,50);
+  color: white;
+}
+.hotel-text-hover-titre{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+}
+.hotel-text-hover-corps{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
