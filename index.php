@@ -6,7 +6,8 @@
     <link rel="stylesheet" type="text/css" href="main.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   </head>
   <body id="page-accueil">
 
@@ -15,12 +16,12 @@
 <section id="bienvenue">
   <div id="container-bienvenue">
   <h3>Bienvenue aux truites bleues</h3>
-  <div class="underline"></div>
+  <div class="underline_desk"></div>
   <img src="propos.jpg" alt="hotel jura" id="img_desk">
   <img src="propos_mob.jpg" alt="hotel jura" id="img_mob">
   <div id="tx-propos">
   <h2>à <span>propos</span></h2>
-  <p>Aux portes du Parc Naturel du Haut Jura idéalement<br>situé entre Champagnole et Saint Laurent en<br>Grandvaux non loin de la <em>station des Rousses,<br>notre établissement Aux Truites Bleus vous<br>accueille tout au long de l’année et saura vous<br>faire découvrir les trésors de la Nature Jurassienne.</em></p>
+  <p>Aux portes du Parc Naturel du Haut Jura idéalement<br>situé entre Champagnole et Saint Laurent en<br>Grandvaux non loin de la <em>station des Rousses,<br>notre établissement Aux Truites Bleues vous<br>accueille tout au long de l’année et saura vous<br>faire découvrir les trésors de la Nature Jurassienne.</em></p>
   <button>en savoir plus</button>
 </div>
 </div>
@@ -37,7 +38,7 @@
     <h3>Notre hôtel</h3>
     <div class="underline_desk"></div>
   <p>Notre Hôtel de charme dans le jura vous accueille pour vos séjours vacances :<br>Chambres doubles, suite parentales, petits déjeuners, service de restauration…<br>Situé dans le cadre somptueux de la région dtes lacs du Jura, entouré de verdure et<br>au bord d’une rivière, notre hôtel placé aux portes du Parc Naturel du Haut Jura<br>saura vous offrir tous les ingrédients d’un séjour nature réussi, qu’il soit en famille,<br>entre amis ou même à deux !</p>
-<button>Découvrir</button>
+<button class="presta-btn">Découvrir</button>
 </div>
 </div>
 
@@ -47,7 +48,7 @@
   <h3>Notre restaurant</h3>
   <div class="underline_desk"></div>
   <p>Au restaurant des Truites Bleues, les plaisirs de la table <br>sont à la fois spectacle et gourmandise ! <br>Dans notre restaurant,vin jaune, vin d’Arbois et autres délices du pays <br>sont les vedettes d’une cuisine de caractère. <br>Découvrez la gastronomie et les produits typiques de la région du Jura !</p>
-<button>Découvrir</button>
+<button class="presta-btn">Découvrir</button>
 </div>
 <img src="resto.jpg" alt="restaurant" id="resto_desk">
 </div>
@@ -58,7 +59,7 @@
     <h3>Nos services</h3>
     <div class="underline_desk"></div>
   <p>Nous sommes là pour vous ! <br>Notre équipe vous propose ses services pour vos grandes occasions : <br>anniversaire, mariage, communion, déjeuner d’entreprise.<br><br>C’est avec un réel plaisir que notre équipe <br>vous accompagnera dans votre projet suivant vos envies et votre budget.</p>
-<button>Découvrir</button>
+<button class="presta-btn">Découvrir</button>
 </div>
 </div>
 
@@ -67,8 +68,8 @@
   <div id="tx-sejours">
   <h3>Nos séjours</h3>
   <div class="underline_desk"></div>
-  <p>Venez vous ressourcer dans le Haut Jura et partez à <br>la découverte des trésors de la nature en toute simplicité.<br><br>Des séjours conçus selon vos envie, vos attentes et votre budget. <br>Une escapade d’une nuit ou plus à vous de choisir ! <br>Notre Hôtel*** authentique vous accueille tout <br>au long de l’année et au fil des saisons. <br>Une multitude d’activités s’offrent à vous …</p>
-<button>Découvrir</button>
+  <p>Venez vous ressourcer dans le Haut Jura et partez à <br>la découverte des trésors de la nature en toute simplicité. <br><br>Des séjours conçus selon vos envie, vos attentes et votre budget. <br>Une escapade d’une nuit ou plus à vous de choisir ! <br>Notre Hôtel*** authentique vous accueille tout <br>au long de l’année et au fil des saisons. <br>Une multitude d’activités s’offrent à vous …</p>
+<button class="presta-btn">Découvrir</button>
 </div>
 <img src="sejours.jpg" alt="lac" id="sejours_desk">
 </div>
@@ -79,8 +80,9 @@
 
 <section id="actu">
   <h2>Nos <span>actualités</span></h2>
-  <div class="underline"></div>
+  <div class="underline_desk"></div>
 <div id="row-actu">
+
   <div id="actu1">
     <img src="actu1.jpg" alt="buffet">
     <div class="actu-head">
@@ -130,16 +132,25 @@
 <section id="avis">
   <div id="tx-avis">
     <h3>Avis <span>clients</span></h3>
-<p><img src="opening_quote.png" alt="opening quote"> Un établissement agréable avec un hôtel de bon confort<br>et un restaurant avec de bons produits locaux.<br>Une salle à manger chaleureuse avec sa cheminée<br>centrale et un service professionnel et souriant. <img src="closing_quote.png" alt="closing quote"></p>
+    <div id="pourcentage_mob">
+    <p><br><br>90%</p>
+    </div>
+<p id="avis_desk"><img src="opening_quote.png" alt="opening quote"> Un établissement agréable avec un hôtel de bon confort<br>et un restaurant avec de bons produits locaux.<br>Une salle à manger chaleureuse avec sa cheminée<br>centrale et un service professionnel et souriant. <img src="closing_quote.png" alt="closing quote"></p>
 <p id="auteur">____ <span>Pascal.P, le 27/02/2020</span></p>
 </div>
-<div id="pourcentage">
-<p><br>90%</p>
+<p id="avis_mob"><img src="opening_quote.png" alt="opening quote"> Un établissement agréable<br>avec un hôtel de bon confort<br>et un restaurant avec de bons<br>produits locaux. Une salle à manger<br>chaleureuse avec sa cheminée<br>centrale et un service professionnel et souriant. <img src="closing_quote.png" alt="closing quote"></p>
+<div id="pourcentage_desk">
+<p><br><br>90%</p>
 </div>
 <div id="nav-avis">
-  <p><span>___</span> ___ ___</p>
+    <p><span>___</span> ___ ___</p>
 </div>
 </section>
-
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </body>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </html>
