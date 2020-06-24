@@ -14,38 +14,38 @@
         <h1 class="hotel-titre hotel-titre-1 text-center">HÔTEL</h1>
           <div class="container">
             <form>
-                <div class="form-row hotel-formulaire d-flex justify-content-between">
-                    <div class="col-lg-3 hotel-form-bloc hotel-arrivee">
-                      <p class="hotel-form">DATE D'ARRIVE</p>
-                      <form action="" method="">
-                        <input type="date" name="" value="">
-                      </form>
+                <div class="form-row hotel-formulaire">
+                    <div class="col-lg-3">
+                      <label for="start">DATE D'ARRIVEE</label>
+
+                      <input type="date" id="start" name="trip-start"
+                             value="2020-06-19"
+                             min="2020-01-01" max="2099-12-31">
                     </div>
-                    <div class="col-lg-3 hotel-form-bloc hotel-depart">
-                      <p class="hotel-form">DATE DE DEPART</p>
-                      <form action="index.html" method="post">
-                        <input type="date" name="" value="">
-                      </form>
+                    <div class="col-lg-3">
+                      <label for="start">DATE DE DEPART</label>
+
+                      <input type="date" id="stop" name="trip-start"
+                             value="2020-07-19"
+                             min="2020-01-01" max="2099-12-31">
                     </div>
-                    <div class="col-lg-3 hotel-form-bloc hotel-adulte">
-                      <p class="hotel-form">ADULTE(S)</p>
-                      <form action="index.html" method="post">
-                        <select name="lsadulte">
-                          <option>1 adulte</option>
-                          <option>2 adultes</option>
-                          <option>3 adultes</option>
+                    <div class="col-lg-3">
+                      <label for="sel1">ADULTE(S)</label>
+                        <select class="form-control" id="sel1">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
                         </select>
-                      </form>
                     </div>
-                    <div class="col-lg-3 hotel-form-bloc hotel-enfant">
-                      <p class="hotel-form">ENFANT(S)</p>
-                      <form action="index.html" method="post">
-                        <select name="lsadulte">
-                          <option>1 enfant</option>
-                          <option>2 enfants</option>
-                          <option>3 enfants</option>
+                    <div class="col-lg-3">
+                      <label for="sel1">ENFANT(S)</label>
+                        <select class="form-control" id="sel1">
+                          <option>1</option>
+                          <option>2</option>
+                          <option>3</option>
+                          <option>4</option>
                         </select>
-                      </form>
                     </div>
                 </div>
             </form>
@@ -95,9 +95,10 @@
               <!--Lien de la chambre-->
               <a class="hotel-lien-carousel-1" href="#">
               <!--Image de la chambre-->
-              <img src="ressources/chambre1.jpg" class="hotel-img-carousel hotel-img-carousel-1 col-xs-offset-1 col-xs-2 col-lg-4 p-2" alt="image chambres hotel">
+              <div class=" hotel-img-carousel-1">
+              <img src="ressources/chambre1.jpg" class="hotel-img-carousel col-xs-offset-1 col-xs-2 col-lg-4 p-2" alt="image chambres hotel">
+              </div>
               <!--Image de la chambre-->
-              <span class="hotel-overlay">
               <p class="hotel-text-hover-1">
                 <!--Texte de l'image-->
               <span class="hotel-text-hover-titre">CHAMBRE FAMILIALE</span>
@@ -108,16 +109,27 @@
               <span class="hotel-text-hover-apartir">à partir de</span>
               <span class="hotel-text-hover-prix">104.00</span>
               <span class="hotel-text-hover-unite">€</span>
-              </p>
-              </span>
-              </a>
+              </p></a>
+              <a class="hotel-lien-carousel-2" href="#">
+                <!--Lien de la chambre-->
+              <img src="ressources/chambre2.jfif" class="hotel-img-carousel hotel-img-carousel-2 col-xs-2 col-lg-4 p-2" alt="image chambres hotel">
+              <!--Image de la chambre-->
+              <p class="hotel-text-hover-2">
+                <!--Texte de l'image-->
+              <span class="hotel-text-hover-titre">CHAMBRE FAMILIALE</span>
+              <span class="hotel-text-hover-corps">Parfait pour les familles, pouvant vous accueillir jusqu’à 5 personnes.
+              Côté parc ou route ou cascade,
+               lit double ou twin et canapé lit .
+              Salle de bain privative avec bain.</span>
+              <span class="hotel-text-hover-apartir">à partir de</span>
+              <span class="hotel-text-hover-prix">104.00</span>
+              <span class="hotel-text-hover-unite">€</span>
+              </p></a>
+              <a class="hotel-lien-carousel-3" href="#">
               <!--Lien de la chambre-->
-              <a class="hotel-lien-carousel-1" href="#">
+              <img src="ressources/chambre3.jfif" class="hotel-img-carousel hotel-img-carousel-3 col-xs-2 col-lg-4 p-2" alt="image chambres hotel">
               <!--Image de la chambre-->
-              <img src="ressources/chambre2.jfif" class="hotel-img-carousel hotel-img-carousel-1 col-xs-offset-1 col-xs-2 col-lg-4 p-2" alt="image chambres hotel">
-              <!--Image de la chambre-->
-              <span class="hotel-overlay">
-              <p class="hotel-text-hover-1">
+              <p class="hotel-text-hover-3">
                 <!--Texte de l'image-->
               <span class="hotel-text-hover-titre">CHAMBRE FAMILIALE</span>
               <span class="hotel-text-hover-corps">Parfait pour les familles, pouvant vous accueillir jusqu’à 5 personnes.
@@ -127,39 +139,12 @@
               <span class="hotel-text-hover-apartir">à partir de</span>
               <span class="hotel-text-hover-prix">104.00</span>
               <span class="hotel-text-hover-unite">€</span>
-              </p>
-              </span>
-              </a>
-              <!--Lien de la chambre-->
-              <a class="hotel-lien-carousel-1" href="#">
-              <!--Image de la chambre-->
-              <img src="ressources/chambre3.jfif" class="hotel-img-carousel hotel-img-carousel-1 col-xs-offset-1 col-xs-2 col-lg-4 p-2" alt="image chambres hotel">
-              <!--Image de la chambre-->
-              <span class="hotel-overlay">
-              <p class="hotel-text-hover-1">
-                <!--Texte de l'image-->
-              <span class="hotel-text-hover-titre">CHAMBRE FAMILIALE</span>
-              <span class="hotel-text-hover-corps">Parfait pour les familles, pouvant vous accueillir jusqu’à 5 personnes.
-              Côté parc ou route ou cascade,
-               lit double ou twin et canapé lit .
-              Salle de bain privative avec bain.</span>
-              <span class="hotel-text-hover-apartir">à partir de</span>
-              <span class="hotel-text-hover-prix">104.00</span>
-              <span class="hotel-text-hover-unite">€</span>
-              </p>
-              </span>
-              </a>
+              </p></a>
             </div>
             <!--Deuxième slide, trois images alignées-->
-            <div class="carousel-item active p-0">
-              <!--Lien de la chambre-->
-              <a class="hotel-lien-carousel-1" href="#">
-              <!--Image de la chambre-->
-              <img src="ressources/chambre1.jpg" class="hotel-img-carousel hotel-img-carousel-1 col-xs-offset-1 col-xs-2 col-lg-4 p-2" alt="image chambres hotel">
-              <!--Image de la chambre-->
-              <span class="hotel-overlay">
+            <div class="carousel-item p-0">
+              <a class="hotel-lien-carousel-1" href="#"><img src="ressources/chambre1.jpg" class="hotel-img-carousel hotel-img-carousel-1 col-xs-offset-1 col-xs-2 col-lg-4 p-2" alt="image chambres hotel">
               <p class="hotel-text-hover-1">
-                <!--Texte de l'image-->
               <span class="hotel-text-hover-titre">CHAMBRE FAMILIALE</span>
               <span class="hotel-text-hover-corps">Parfait pour les familles, pouvant vous accueillir jusqu’à 5 personnes.
               Côté parc ou route ou cascade,
@@ -168,17 +153,9 @@
               <span class="hotel-text-hover-apartir">à partir de</span>
               <span class="hotel-text-hover-prix">104.00</span>
               <span class="hotel-text-hover-unite">€</span>
-              </p>
-              </span>
-              </a>
-              <!--Lien de la chambre-->
-              <a class="hotel-lien-carousel-1" href="#">
-              <!--Image de la chambre-->
-              <img src="ressources/chambre2.jfif" class="hotel-img-carousel hotel-img-carousel-1 col-xs-offset-1 col-xs-2 col-lg-4 p-2" alt="image chambres hotel">
-              <!--Image de la chambre-->
-              <span class="hotel-overlay">
-              <p class="hotel-text-hover-1">
-                <!--Texte de l'image-->
+              </p></a>
+              <a class="hotel-lien-carousel-2" href="#"><img src="ressources/chambre2.jfif" class="hotel-img-carousel hotel-img-carousel-2 col-xs-2 col-lg-4 p-2" alt="image chambres hotel">
+              <p class="hotel-text-hover-2">
               <span class="hotel-text-hover-titre">CHAMBRE FAMILIALE</span>
               <span class="hotel-text-hover-corps">Parfait pour les familles, pouvant vous accueillir jusqu’à 5 personnes.
               Côté parc ou route ou cascade,
@@ -187,17 +164,9 @@
               <span class="hotel-text-hover-apartir">à partir de</span>
               <span class="hotel-text-hover-prix">104.00</span>
               <span class="hotel-text-hover-unite">€</span>
-              </p>
-              </span>
-              </a>
-              <!--Lien de la chambre-->
-              <a class="hotel-lien-carousel-1" href="#">
-              <!--Image de la chambre-->
-              <img src="ressources/chambre3.jfif" class="hotel-img-carousel hotel-img-carousel-1 col-xs-offset-1 col-xs-2 col-lg-4 p-2" alt="image chambres hotel">
-              <!--Image de la chambre-->
-              <span class="hotel-overlay">
-              <p class="hotel-text-hover-1">
-                <!--Texte de l'image-->
+              </p></a>
+              <a class="hotel-lien-carousel-3" href="#"><img src="ressources/chambre3.jfif" class="hotel-img-carousel hotel-img-carousel-3 col-xs-2 col-lg-4 p-2" alt="image chambres hotel">
+              <p class="hotel-text-hover-3">
               <span class="hotel-text-hover-titre">CHAMBRE FAMILIALE</span>
               <span class="hotel-text-hover-corps">Parfait pour les familles, pouvant vous accueillir jusqu’à 5 personnes.
               Côté parc ou route ou cascade,
@@ -206,15 +175,13 @@
               <span class="hotel-text-hover-apartir">à partir de</span>
               <span class="hotel-text-hover-prix">104.00</span>
               <span class="hotel-text-hover-unite">€</span>
-              </p>
-              </span>
-              </a>
+              </p></a>
             </div>
           </div>
-          <a class="left carousel-control-prev hotel-carousel-control-prev" href="#carousel" data-slide="prev">
+          <a class="left carousel-control-prev" href="#carousel" data-slide="prev">
                <span class="glyphicon glyphicon-chevron-left"><img class="hotel-chevron-gauche" src="ressources/hotel-chevron-gauche.png" alt="chevron gauche"></span>
           </a>
-          <a class="right carousel-control-next hotel-carousel-control-next" href="#carousel" data-slide="next">
+          <a class="right carousel-control-next" href="#carousel" data-slide="next">
                <span class="glyphicon glyphicon-chevron-right"><img class="hotel-chevron-droite" src="ressources/hotel-chevron-droite.png" alt="chevron droite"></span>
           </a>
         </section>

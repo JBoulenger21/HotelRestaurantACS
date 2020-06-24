@@ -7,6 +7,27 @@
 .hotel-text-presta{
   line-height: 40px;
 }
+.hotel-form{
+  font-family: 'montserrat', sans-serif;
+  color: rgb(20,192,207);
+  font-weight: bold;
+}
+.hotel-arrivee input{
+  background-image: url('ressources/icon-arrivee.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hotel-depart input{
+  background-image: url('ressources/icon-depart.png');
+}
+.hotel-formulaire input{
+  max-width: 1.125rem;
+  height: 1.25rem;
+  border: 0px;
+  background-size: 100% 100%;
+  background-color: rgba(0,0,0,0);
+  padding: 0;
+}
 .hotel-titre{
   font-family: 'Montserrat', sans-serif;
   color: #14c0cf;
@@ -70,25 +91,41 @@
     color: white;
     text-align: center;
 }
+/*Taille des images du carousel*/
 .hotel-img-carousel{
-  width: 350px;
+  max-width: 350px;
   height: 650px;
 }
-.hotel-img-carousel:hover{
-  background-color: #008ede;
-  opacity: 80%;
-  padding: 0;
-  margin: 0;
+/*hover pour la couleur sur l'image*/
+.hotel-lien-carousel-1{
+  position: relative;
+    float: left;
 }
+.hotel-overlay{
+  display: none;
+  background: rgba(0, 142, 222, 0.8);
+  position:absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.hotel-lien-carousel-1:hover .hotel-overlay{
+display: block;
+}
+/*Hover sur le texte pour l'image*/
 .hotel-text-hover-1{
   display: none;
 }
-.hotel-text-hover-1:hover{
+.hotel-lien-carousel-1:hover .hotel-text-hover-1{
   display: block;
   position: absolute;
-  transform: translate(50,50);
+  top: 0;
+  left: 50%;
+  transform: translate(-50%,50%);
   color: white;
 }
+/*Mise en forme du texte de l'hover sur l'image*/
 .hotel-text-hover-titre{
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
@@ -97,6 +134,14 @@
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 }
+a.hotel-carousel-control-next {
+    right: -80px!important;
+}
+
+a.hotel-carousel-control-prev {
+    left: -100px!important;
+}
+/*Carousel mobile*/
 .hotel-carousel-mobile{
   display: none;
 }
@@ -174,7 +219,8 @@
   }
   .hotel-carousel-ind{
     position: absolute;
-    transform: translate(0, 80%);
-    color: #14c0cf;
+    bottom: -10!important;
+    transform: translate(0, 150%)!important;
+    background-color: #14c0cf;
   }
 }
