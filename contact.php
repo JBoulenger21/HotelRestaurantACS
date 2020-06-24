@@ -15,6 +15,7 @@
     <div class="contact-parent">
       <header>
         <div class="contact-header">
+          <!--HEADER-->
           <img class="contact-logo" src="img/Logo.png" alt="">
           <a href="#"><img class="contact-home"src="img/Home.png" alt=""></a>
           <div class="contact-navbar">
@@ -45,6 +46,7 @@
                 <span class="contact-lieunav"> Lieu-dit, RN 5, 39150 Fort-du-Plasne</span>
               </div>
           </div>
+          <!--FIN HEADER-->
         </div>
       </header>
       <div class="contact-bdr contact-absolutepos">
@@ -116,7 +118,7 @@
               <img src="img/mail.png" alt="">
               <p class="contact-fontopensans"><span class="contact-bold">EMAIL</span></br>
               HOTEL@TRUITES-BLEUS.COM</p>
-            </div> 
+            </div>
           </div>
         </div>
         <div class="contact-txtquestion contact-colorblue contact-bold contact-absolutepos contact-fontmontserrat">

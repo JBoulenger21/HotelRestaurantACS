@@ -11,7 +11,6 @@ body{margin: 0 0 0 0;}
 .contact-txtaligncenter{text-align: center;}
 .contact-absolutepos{position: absolute;}
 
-
 .contact-header{background-image: url("img/background-.jpg");height: 104.8125rem;background-size: 134% 100%;background-position: right 14.8% bottom;}
 .contact-navbarMobile{display: none;}
 .contact-navbar{float: right;margin-top: 9.5625rem;margin-right: 12.1875%;width: 56%}
@@ -20,7 +19,6 @@ body{margin: 0 0 0 0;}
 .contact-logo{margin-left: 9.42708333333333%;margin-top: 7.75rem;}
 .contact-home{margin-left: 5.9375%;margin-bottom: 0.4375rem;}
 #contact-loupe{margin-left: 4.375rem;}
-
 .contact-lineNC{left: 50%;}
 .contact-box{display: flex;margin-top: 39.375rem;justify-content: center;}
 .contact-box p{margin-right: 6.875rem;}
@@ -46,25 +44,11 @@ body{margin: 0 0 0 0;}
 .contact-button input{width: 10.1875rem;height: 3rem;background-color: rgb(20,192,207);margin-left: 45%;margin-top: 3.7rem;border-radius: 0.625rem;font-size: 1.375rem;border: none;}
 .contact-button form{height: 5.4375rem;}
 .contact-elementsBdr{margin-left: 3%;margin-right: 3%;}
-
-
-
-
-
-
-
-
-
-
-
-
-
 .contact-contact{height: 277.1875rem;}
 .contact-contact h2{text-align: center;font-size: 5.5vh;}
 #contact-h2c{padding-top: 10%;}
 .contact-txtContact{height: 19.97772828507795%;margin-top: 6.5%;width: 59.11917098445596%;margin-left: auto;margin-right: auto;}
 .contact-txtContact p{font-size: 4.6vh;padding-top: 7.13489409141583%;padding-left: 9.90359333917616%;padding-right: 7.274320771253286%;line-height: 3.6rem;}
-
 .contact-map{height: 16.51977401129944%;background-image: url("img/map.jpg");margin-top: 12%;background-size: 100% 100%}
 .contact-informations{background-color: white;height: 90%;width: 43.95833333333334%;margin-top:  5.5%;margin-left: 3.385416666666667%;}
 .contact-informations h2{margin-top: 10%;margin-bottom: 12%;}
@@ -75,25 +59,20 @@ body{margin: 0 0 0 0;}
 #contact-adresse img{width: 6.279620853080569%;}
 #contact-tel img{width: 3.791469194312796%;}
 #contact-mail img{width: 5.924170616113744%;}
-
 .contact-txtquestion{font-size: 6.6875rem;margin-top: 31.5%;margin-left: 2%;;}
 #contact-questionsMobile{display: none;}
-
 .contact-vertLine{top: 5450px;left: 298px;}
 .contact-vertLine img{height: 600px;}
 .contact-vertLine2{top: 4187px;left: 298px;}
 .contact-vertLine2 img{height: 490px;}
-
 .contact-form{width: 48.8020833%;height: 46.5%;margin-top: 4%;float: right;margin-right: 1.61458333%;}
 .contact-form p{font-size: 3.9vh;}
-
 .contact-form h2{margin-top: 9%;margin-bottom: 13%;}
 .contact-form input{font-size: 3vh;;border: 0.062rem solid rgb(20,192,207);margin-left: 7.4%;margin-bottom: 5.5%;margin-top: 2%;height: 6.9375rem;width: 83.8847385%;}
 .contact-form label{margin-left: 10.3%;font-size: 3vh;}
 #contact-message{height: 18.5625rem;}
 .contact-touchampsform{font-size: 2.1875rem;margin-top: 0px;margin-bottom: 1.375rem;}
 #contact-submite{background-color: rgb(20,192,207);color: white;font-size: 3.125rem;width: 23.9375rem;height: 7.875rem;margin-left: 30%;border-radius: 0.625rem;margin-top: 2%;}
-
 .contact-venir{height: 111.0625rem;}
 .contact-venir h2 {font-size: 3.125rem;margin-top: 8.125rem;margin-bottom: 6.875rem;}
 .contact-venir h3, .contact-venir p{font-size: 2.8125rem;}
@@ -101,11 +80,11 @@ body{margin: 0 0 0 0;}
 .contact-venir p{margin-bottom: 4.1875rem;}
 .contact-venirIcon{width: 8.90625%;}
 .contact-undervenir{top: 397.5rem;left: 43%;}
-.contact-undertitle{top: 416.875rem;left: 45.5%;}
-.contact-undertitle2{top: 450rem;left: 45.5%;}
-.contact-undertitle3{top: 479rem;left: 45.5%;}
-
-footer{height: 18.9375rem;background-color: rgb(167,167,167);}
+.contact-undertitle, .contact-undertitle2, .contact-undertitle3{left: 45.5%;}
+.contact-undertitle{top: 416.875rem;}
+.contact-undertitle2{top: 450rem;}
+.contact-undertitle3{top: 479rem;}
+footer{}
 
 @media (max-width: 1600px){
   .contact-navbar {margin-right: 10%;}
@@ -114,28 +93,29 @@ footer{height: 18.9375rem;background-color: rgb(167,167,167);}
   .contact-vertLine{top: 5210px;}
   .contact-vertLine img{height: 700px;}
   .contact-undervenir{top: 396.5rem;}
-  .contact-undertitle{top: 414.5rem;left: 44.9%;}
-  .contact-undertitle2{top: 446rem;left: 44.9%;}
-  .contact-undertitle3{top: 473rem;left: 44.9%;}
+  .contact-undertitle, .contact-undertitle2, .contact-undertitle3{left: 44.9%;}
+  .contact-undertitle{top: 414.5rem;}
+  .contact-undertitle2{top: 446rem;}
+  .contact-undertitle3{top: 473rem;}
 }
 
 @media (max-width: 320px){
   .contact-home, .contact-navbar, .contact-lineNC, .contact-box,
   #contact-questionsDesktop, .contact-vertLine, .contact-vertLine2, .contact-navbarMobile #myLinks
   {display: none;}
+  .contact-navbarMobile,#contact-questionsMobile{display: block;}
   .contact-informations h2, .contact-form h2, .contact-venir h2{font-size: 3vh;}
   .contact-informations p, .contact-form input, .contact-form label, .contact-form p,
   #contact-submite, .contact-venir p
   {font-size: 2.2vh;}
-
   .contact-header{height: 755px;background-size: 350% 100%;background-position: right 54% bottom;}
   .contact-logo{width: 100px;margin-left: 36%;margin-right: auto;margin-top: 10px;}
-  .contact-navbarMobile{display: block;}
   .contact-navbarMobile #myLinks{background-color: white;height: 300px;}
   .contact-navbarMobile #myLinks a{text-decoration: none;color: rgb(20,192,207);font-family: montserrat, sans-serif;margin-left: 20%;}
   .contact-navbarMobile br{margin-top: 30px;}
-  .contact-navbarMobile i{position: absolute;top: 11px;left: 13px;color: rgb(20,192,207);width: 6.25%;}
-  .contact-navinfosmobile{position: absolute;top: 100px;color: rgb(20,192,207);font-size: 1.5vh;}
+  .contact-navbarMobile i, .contact-navinfosmobile{position: absolute;color: rgb(20,192,207);}
+  .contact-navbarMobile i{top: 11px;left: 13px;width: 6.25%;}
+  .contact-navinfosmobile{top: 100px;font-size: 1.5vh;}
   .contact-navinfosmobile img{width: 2.5%;}
   .contact-telnav{margin-left: 14.3%;}
   .contact-icinav{margin-left: 8.1%;}
@@ -150,13 +130,10 @@ footer{height: 18.9375rem;background-color: rgb(167,167,167);}
   .contact-map {background-size: 166% 100%;height: 204px;background-position: right 28% bottom;}
   .contact-informations{margin-top: 228px;width: 95%;height: 60%;margin-left: 2.5%;}
   .contact-txtquestion{font-weight: normal;font-size: 2vh;margin-top: 145%;text-align: center;margin-left: 5%;margin-right: 5%;}
-  #contact-questionsMobile{display: block;}
-
   .contact-form{margin-top: 170%;height: 22%;width: 98.125%;margin-right: 0.5%;box-shadow: none;border: 1px solid rgb(20,192,207);}
   .contact-form input{height: 3rem;}
   #contact-message{height: 15rem;}
   #contact-submite{width: 38%;height: 42px;}
-
   .contact-venirIcon{width: 18%;}
   .contact-venir{margin-top: 480%;height: 40rem;}
   .contact-venir h2, .contact-venir p{margin-bottom: 30px;}
