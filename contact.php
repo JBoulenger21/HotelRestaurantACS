@@ -116,7 +116,7 @@
               <img src="img/mail.png" alt="">
               <p class="contact-fontopensans"><span class="contact-bold">EMAIL</span></br>
               HOTEL@TRUITES-BLEUS.COM</p>
-            </div>
+            </div> 
           </div>
         </div>
         <div class="contact-txtquestion contact-colorblue contact-bold contact-absolutepos contact-fontmontserrat">
