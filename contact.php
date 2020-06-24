@@ -6,6 +6,10 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://use.typekit.net/ntb6ydg.css">
     <link rel="stylesheet" href="https://use.typekit.net/ntb6ydg.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
   </head>
   <body>
     <div class="contact-parent">
@@ -21,6 +25,25 @@
             <a class="contact-colorwhite contact-fontmontserrat contact-bold"href="#">SERVICES</a>
             <a class="contact-colorwhite contact-fontmontserrat contact-bold"href="#">RESTAURANT</a>
             <a id="contact-ahotel" class="contact-colorwhite contact-fontmontserrat contact-bold"href="#">HÔTEL</a>
+          </div>
+          <div class="contact-navbarMobile">
+            <a href="#home" class="active"></a>
+              <div id="myLinks">
+                <a class="contact-anavbarmsearch" href="#search">SEARCH</a></br>
+                <a class="contact-anavbarmcontact" href="#contact">CONTACT</a></br>
+                <a class="contact-anavbarmsejours" href="#sejours">SEJOURS</a></br>
+                <a class="contact-anavbarmservices" href="#services">SERVICES</a></br>
+                <a class="contact-anavbarmrestaurant" href="#restaurant">RESTAURANT</a></br>
+              </div>
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+              <div class="contact-navinfosmobile" id="contact-infonav">
+                <img class="contact-telnav" src="img/tel.png" alt="">
+                <span class="contact-numnav">03 84 60 83 03</span>
+                <img class="contact-icinav" src="img/ici.png" alt="">
+                <span class="contact-lieunav"> Lieu-dit, RN 5, 39150 Fort-du-Plasne</span>
+              </div>
           </div>
         </div>
       </header>
@@ -143,6 +166,19 @@
         <p class="contact-colorgrey contact-fontopensans contact-txtaligncenter">Lignes 20 et 65 : Arrêt Saint-Claude à 150 mètres</p>
       </div>
       <footer></footer>
+      <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          var y = document.getElementById("contact-infonav");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+            y.style.display = "block";
+          } else {
+            x.style.display = "block";
+            y.style.display = "none";
+          }
+        }
+</script>
     </body>
   </div>
 </html>
