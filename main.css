@@ -107,6 +107,18 @@ body{margin: 0 0 0 0;}
 
 footer{height: 18.9375rem;background-color: rgb(167,167,167);}
 
+@media (max-width: 1600px){
+  .contact-navbar {margin-right: 10%;}
+  .contact-vertLine2{top: 3897px;}
+  .contact-vertLine2 img{height: 570px;}
+  .contact-vertLine{top: 5210px;}
+  .contact-vertLine img{height: 700px;}
+  .contact-undervenir{top: 396.5rem;}
+  .contact-undertitle{top: 414.5rem;left: 44.9%;}
+  .contact-undertitle2{top: 446rem;left: 44.9%;}
+  .contact-undertitle3{top: 473rem;left: 44.9%;}
+}
+
 @media (max-width: 320px){
   .contact-home, .contact-navbar, .contact-lineNC, .contact-box,
   #contact-questionsDesktop, .contact-vertLine, .contact-vertLine2, .contact-navbarMobile #myLinks
