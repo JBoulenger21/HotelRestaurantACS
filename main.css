@@ -1,0 +1,40 @@
+.colservice{background: #fff; color: #14c0cf}
+.colfontcolor{color: #6d6b70}
+.fontmontserrat{font-family: montserrat, sans-serif;}
+.bold{font-weight: bold;}
+.light{font-weight: normal;}
+.fontopensans{font-family: open-sans, sans-serif;margin-left: 70px;}
+.h1services{font-size: 40pt;margin-bottom: 5px;}
+.titre{font-size: 20pt}
+.text{font-size: 12pt}
+.underlinetitle{margin-bottom: 26px;}
+.textoccasion{line-height: 45px; margin-left: 50px;}
+.titreoccasion{margin-top: 50px; margin-bottom: 50px;}
+.espaceimage{margin-bottom: 83px;}
+.textaffaires{margin-bottom: 62px; margin-left: 70px; margin-top: 80px;}
+.bloqaffaires { line-height: 38px;}
+.spaceimgaffaires{margin-bottom: 33px;}
+.imagetable {width: 570px; height: 380px; margin-left: 50px;}
+.imagemain {width: 570px; height: 380px;}
+.titrecuisine {margin-top: 50px; margin-left: 130px;}
+.textcuisine {margin-top: 50px; margin-bottom: 60px; margin-left: 130px;}
+.minitof1 {width: 260px; height: 230px; margin-left: 120px;}
+.minitof2 {width: 260px; height: 230px; margin-left: 50px;}
+.minitof3 {width: 260px; height: 230px; margin-left: 50px;}
+.textsoucieux {margin-top: 60px; margin-bottom: 30px; margin-left: 130px; line-height: 38px;}
+.boutton {width: 194px; height: 66px; margin-left: 130px; font-size: 20pt;}
+
+
+@media (max-width:375px){
+.h1services {font-size: 36pt; margin-left: 300px;}
+.sizetitle{font-size: 20pt; font-weight: bold; margin-left: 150px;}
+.imagetable{position:absolute; top: 600px; right: 20px;background-size: 300% 85.44%; background-position}
+.imagemain{margin-top: 1000px;}
+.textoccasion{margin-bottom: 30px; margin-left: 300px;}
+.underlinetitle{margin-left: 300px;}
+.textbuffet{font-size: 16pt; margin-left: 150px;}
+.btaffaires {margin-top: 450px;}
+.bloqaffaires {margin-bottom: 300px;}
+375 211
+
+}
