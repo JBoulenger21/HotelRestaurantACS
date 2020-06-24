@@ -16,7 +16,7 @@
 <section id="bienvenue">
   <div id="container-bienvenue">
   <h3>Bienvenue aux truites bleues</h3>
-  <div class="underline_desk"></div>
+  <div class="underline"></div>
   <img src="propos.jpg" alt="hotel jura" id="img_desk">
   <img src="propos_mob.jpg" alt="hotel jura" id="img_mob">
   <div id="tx-propos">
@@ -33,11 +33,11 @@
 <section id="prestations">
 
   <div id="hotel">
-  <img src="hotel.jpg" alt="réception">
+  <img src="hotel.jpg" alt="réception" class="presta-img">
   <div id="tx-hotel">
     <h3>Notre hôtel</h3>
-    <div class="underline_desk"></div>
-  <p>Notre Hôtel de charme dans le jura vous accueille pour vos séjours vacances :<br>Chambres doubles, suite parentales, petits déjeuners, service de restauration…<br>Situé dans le cadre somptueux de la région dtes lacs du Jura, entouré de verdure et<br>au bord d’une rivière, notre hôtel placé aux portes du Parc Naturel du Haut Jura<br>saura vous offrir tous les ingrédients d’un séjour nature réussi, qu’il soit en famille,<br>entre amis ou même à deux !</p>
+    <div class="underline"></div>
+  <p class="presta-p">Notre Hôtel de charme dans le jura vous accueille pour vos séjours vacances :<br>Chambres doubles, suite parentales, petits déjeuners, service de restauration…<br>Situé dans le cadre somptueux de la région dtes lacs du Jura, entouré de verdure et<br>au bord d’une rivière, notre hôtel placé aux portes du Parc Naturel du Haut Jura<br>saura vous offrir tous les ingrédients d’un séjour nature réussi, qu’il soit en famille,<br>entre amis ou même à deux !</p>
 <button class="presta-btn">Découvrir</button>
 </div>
 </div>
@@ -46,19 +46,19 @@
   <img src="resto.jpg" alt="restaurant" id="resto_mob">
   <div id="tx-resto">
   <h3>Notre restaurant</h3>
-  <div class="underline_desk"></div>
-  <p>Au restaurant des Truites Bleues, les plaisirs de la table <br>sont à la fois spectacle et gourmandise ! <br>Dans notre restaurant,vin jaune, vin d’Arbois et autres délices du pays <br>sont les vedettes d’une cuisine de caractère. <br>Découvrez la gastronomie et les produits typiques de la région du Jura !</p>
+  <div class="underline"></div>
+  <p class="presta-p">Au restaurant des Truites Bleues, les plaisirs de la table <br>sont à la fois spectacle et gourmandise ! <br>Dans notre restaurant,vin jaune, vin d’Arbois et autres délices du pays <br>sont les vedettes d’une cuisine de caractère. <br>Découvrez la gastronomie et les produits typiques de la région du Jura !</p>
 <button class="presta-btn">Découvrir</button>
 </div>
 <img src="resto.jpg" alt="restaurant" id="resto_desk">
 </div>
 
 <div id="services">
-  <img src="services.jpg" alt="réception">
+  <img src="services.jpg" alt="réception" class="presta-img">
   <div id="tx-services">
     <h3>Nos services</h3>
-    <div class="underline_desk"></div>
-  <p>Nous sommes là pour vous ! <br>Notre équipe vous propose ses services pour vos grandes occasions : <br>anniversaire, mariage, communion, déjeuner d’entreprise.<br><br>C’est avec un réel plaisir que notre équipe <br>vous accompagnera dans votre projet suivant vos envies et votre budget.</p>
+    <div class="underline"></div>
+  <p class="presta-p">Nous sommes là pour vous ! <br>Notre équipe vous propose ses services pour vos grandes occasions : <br>anniversaire, mariage, communion, déjeuner d’entreprise.<br><br>C’est avec un réel plaisir que notre équipe <br>vous accompagnera dans votre projet suivant vos envies et votre budget.</p>
 <button class="presta-btn">Découvrir</button>
 </div>
 </div>
@@ -67,8 +67,8 @@
   <img src="sejours.jpg" alt="lac" id="sejours_mob">
   <div id="tx-sejours">
   <h3>Nos séjours</h3>
-  <div class="underline_desk"></div>
-  <p>Venez vous ressourcer dans le Haut Jura et partez à <br>la découverte des trésors de la nature en toute simplicité. <br><br>Des séjours conçus selon vos envie, vos attentes et votre budget. <br>Une escapade d’une nuit ou plus à vous de choisir ! <br>Notre Hôtel*** authentique vous accueille tout <br>au long de l’année et au fil des saisons. <br>Une multitude d’activités s’offrent à vous …</p>
+  <div class="underline"></div>
+  <p class="presta-p">Venez vous ressourcer dans le Haut Jura et partez à <br>la découverte des trésors de la nature en toute simplicité. <br><br>Des séjours conçus selon vos envie, vos attentes et votre budget. <br>Une escapade d’une nuit ou plus à vous de choisir ! <br>Notre Hôtel*** authentique vous accueille tout <br>au long de l’année et au fil des saisons. <br>Une multitude d’activités s’offrent à vous …</p>
 <button class="presta-btn">Découvrir</button>
 </div>
 <img src="sejours.jpg" alt="lac" id="sejours_desk">
@@ -80,7 +80,7 @@
 
 <section id="actu">
   <h2>Nos <span>actualités</span></h2>
-  <div class="underline_desk"></div>
+  <div class="underline"></div>
 <div id="row-actu">
 
   <div id="actu1">
@@ -123,7 +123,7 @@
   </div>
 </div>
 <div id="nav-actu">
-  <p id="dot1"></p><p id="dot2"></p><p id="dot2"></p>
+  <p id="dot1"></p><p class="dot"></p><p class="dot"></p>
 </div>
 </section>
 
