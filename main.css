@@ -320,6 +320,34 @@ a.hotel-carousel-control-prev {
 
 /*FIN ACCUEIL DESKTOP*/
 
+.footer-background{
+  background-color: #a7a7a7;
+}
+footer a{
+  color: white;
+  font-family: 'montserrat', sans-serif;
+}
+.footer-navbar{
+  background-color: #a7a7a7;
+}
+.footer-navbar a{
+  color: grey;
+}
+footer p{
+  color: white;
+}
+.footer-mobile-bot{
+  display: none;
+}
+footer row{
+  width : 33%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-adress-mobile{
+  display: none;
+}
+
 
 @media (max-width: 1600px){
   .contact-navbar {margin-right: 10%;}
@@ -463,6 +491,24 @@ a.hotel-carousel-control-prev {
 
 
   /*FIN HOTEL MOBILE*/
+
+  .footer-mobile-bot{
+  display: block;
+}
+.footer-desktop-bot{
+  display: none;
+}
+footer p{
+  text-align: center;
+  display: flex;
+  margin : auto;
+}
+.footer-adress-mobile{
+  display: block;
+}
+.footer-adress-desktop{
+  display: none;
+}
 }
 
 @media (max-width: 480px){
