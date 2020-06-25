@@ -3,9 +3,57 @@ include('header.php');
 ?>
 
 <body id="page-accueil">
-
   <!-- SECTION A PROPOS -->
-  
+<header>
+  <?php
+  include('navbar.php');
+  ?>
+  <section id="resa">
+<br><h1>AUX TRUITES BLEUES</h1>
+<div id="resa2"><span>________________</span>  Hôtel - Restaurant dans le jura <span>________________</span></div>
+<div class="contact-box">
+    <div class="contact-elementsBdr contact-darriver">
+      <p class="contact-colorblue contact-fontmontserrat contact-bold">DATE D'ARRIVER</p>
+      <form action="" method="">
+        <input type="date" name="" value="">
+      </form>
+    </div>
+    <div class="contact-elementsBdr contact-ddepart">
+      <p class="contact-colorblue contact-fontmontserrat contact-bold">DATE DE DEPART</p>
+      <form action="index.html" method="post">
+        <input type="date" name="" value="">
+      </form>
+    </div>
+    <div class="contact-elementsBdr contact-adulte">
+      <p class="contact-colorblue contact-fontmontserrat contact-bold">ADULTE(S)</p>
+      <form action="index.html" method="post">
+        <select name="lsadulte">
+          <option>1 adulte</option>
+          <option>2 adultes</option>
+          <option>3 adultes</option>
+        </select>
+      </form>
+    </div>
+    <div class="contact-elementsBdr contact-enfant">
+      <p class="contact-colorblue contact-fontmontserrat contact-bold">ENFANT(S)</p>
+      <form action="index.html" method="post">
+        <select name="lsadulte">
+          <option>1 enfant</option>
+          <option>2 enfants</option>
+          <option>3 enfants</option>
+        </select>
+      </form>
+    </div>
+</div>
+<div class="contact-button">
+  <form>
+    <input class="contact-colorwhite" type="button" name="" value="RESERVER">
+  </form>
+</div>
+</section>
+</header>
+
+
   <section id="bienvenue">
     <div id="container-bienvenue">
       <h3>Bienvenue aux truites bleues</h3>
