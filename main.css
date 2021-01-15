@@ -25,14 +25,17 @@
 .boutton {width: 194px; height: 66px; margin-left: 130px; font-size: 20pt;}
 
 
-@media (max-width:375px){
-.h1services {font-size: 36pt; margin-left: 300px;}
-.sizetitle{font-size: 20pt; font-weight: bold; margin-left: 150px;}
+@media (max-width:320px){
+.fontopensans{margin-left: 0;}
+.colservice{width: 165%;}
+.row{width: 100%;}
+.h1services {font-size: 25pt;}
+.sizetitle{font-size: 20pt; font-weight: bold; margin-left: 14px;}
 .imagetable{position:absolute; top: 600px; right: 20px;background-size: 300% 85.44%; background-position}
 .imagemain{margin-top: 1000px;}
-.textoccasion{margin-bottom: 30px; margin-left: 300px;}
-.underlinetitle{margin-left: 300px;}
-.textbuffet{font-size: 16pt; margin-left: 150px;}
+.textoccasion{margin-bottom: 30px; margin-left: 300px; te}
+.underlinetitle{margin-left: auto;margin-right: auto;}
+.textbuffet{font-size: 16pt; margin-left: 50px;}
 .btaffaires {margin-top: 450px;}
 .bloqaffaires {margin-bottom: 300px;}
 375 211

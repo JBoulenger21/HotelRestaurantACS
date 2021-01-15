@@ -19,7 +19,7 @@
 </head>
 
 <?php
-include('header.php');
+/*include('header.php');*/
  ?>
 
 <section class= 'colservice'>
@@ -29,7 +29,7 @@ include('header.php');
   </div>
   <div>
     <div class="row">
-  <div class="col-12"><img class="underlinetitle" src="img/Trait-services"</div>
+  <div class="col-12"><img class="underlinetitle" src="img/Trait-services.jpg"</div>
 </div>
 <div class="row">
   <div class="col-12"><p class="fontmontserrat titre sizetitle">DECOUVREZ NOS SERVICES COMPLEMENTAIRES</p>
@@ -44,7 +44,7 @@ include('header.php');
  </div>
 
  <div class="row">
-  <div class="col-6"><img class="imagemain" src="img/repas-d-affaire"></div>
+  <div class="col-6"><img class="imagemain" src="img/repas-d-affaire.jpg"></div>
   <div class="col-6"><h1 class="fontmontserrat light titre textaffaires btaffaires">REPAS D'AFFAIRES</h1>
 <p class="colfontcolor fontopensans light text bloqaffaires btaffaires">Vous souhaitez organiser un repas d'affaires ou un diner<br> pour remercier vos équipes, nous sommes également à<br> pour répondre à vos attentes!</p>
   </div>
@@ -57,9 +57,9 @@ include('header.php');
 </div>
 
 <div class="row">
-  <div class="col-4"><img class="minitof1" src="img/plat-truite2"></div>
-  <div class="col-4"><img class="minitof2" src="img/plat-dressé"></div>
-  <div class="col-4"><img class='minitof3' src="img/plat"></div>
+  <div class="col-4"><img class="minitof1" src="img/plat-truite2.jpg"></div>
+  <div class="col-4"><img class="minitof2" src="img/plat-dressé.jpg"></div>
+  <div class="col-4"><img class='minitof3' src="img/plat.jpg"></div>
 </div>
 
 <div class="row">
